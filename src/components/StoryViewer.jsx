@@ -10,7 +10,7 @@ const StoryViewer = ({ story, onClose, onNext, onPrev, isFirst, isLast }) => {
       } else {
         onClose();
       }
-    }, 4000); // 5 seconds
+    }, 5000); // 5 seconds
 
     return () => clearTimeout(timer);
   }, [story]);
