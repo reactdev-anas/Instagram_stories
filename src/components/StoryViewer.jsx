@@ -40,7 +40,7 @@ const StoryViewer = ({ story, onClose, onNext, onPrev, isFirst, isLast }) => {
         <button
           onClick={onPrev}
           disabled={isFirst}
-          className="bg-white text-xl absolute top-74 left-5 text-black px-4 py-2 rounded "
+          className="bg-white text-xl absolute top-74 left-5 text-black px-4 py-2 rounded disabled:opacity-30 "
         >
        <RiArrowLeftSLine />
         </button>
